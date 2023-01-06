@@ -1,0 +1,32 @@
+body{
+
+    background: url(./img/stadium.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+
+.Felicitation{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 37%;
+    margin-bottom: 15%;
+    color: white;
+    padding: 30px;
+}
+.footfoot{
+    margin-top: 50px;
+}
+.headhead{
+    margin-bottom: 100px ;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }

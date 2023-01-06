@@ -1,0 +1,489 @@
+  #rectangle1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#titre{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-align: center;
+}
+#argent{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#sec1{
+    margin-left: 10px;
+}
+#argent2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#resultat{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+body{
+
+    margin-left: 10px;
+    background-image: url(./img/stadium.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(255, 255, 255)
+}
+
+#gains{
+    margin-left: 10px;
+}
+
+.bouton2{
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+
+}
+
+#titre2{
+    margin-left: 10px;
+}
+  
+#zz{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}  
+  
+h2{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    }
+    
+    .number-input input[type=number]::-webkit-inner-spin-button,
+    .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    }
+    
+    .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    }
+    
+    .number-input button:before,
+    .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+    }
+    
+    .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    }
+    
+    .number-input input[type=number] {
+    text-align: center;
+    }
+    
+    .number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 10rem;
+    border-radius: .25rem;
+    }
+    
+    .number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+    }
+    
+    .number-input.number-input button.minus {
+    padding-left: 10px;
+    }
+    
+    .number-input.number-input button:before,
+    .number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+    }
+    
+    .number-input.number-input input[type=number] {
+    max-width: 4rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+    }
+
+
+
+
+
+    .row>* {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * 11.5);
+      margin-top: var(--bs-gutter-y);
+      
+  }
+
+  .py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    border: 2px solid #ed00fa7c;
+}
+
+
+  .text-primary {
+    --bs-text-opacity: 1;
+    color:#ffffff
+
+    !important;
+}
+
+
+
+
+
+.card {
+  --bs-card-spacer-y: -3rem;
+  --bs-card-bg:#00000060
+  ;}
+
+
+
+  .container {
+    display: flex;
+    margin-left: 27%;
+    margin-right: 25%;
+    overflow: hidden;
+    top: 10px;
+    transform: translateY(0);
+    color: white;
+}
+
+.text-black {
+  --bs-text-opacity: 1;
+  color: #ffffff
+  !important;
+}
+
+
+h6 {
+  color: #ffffff !important
+}
+
+
+.mb-2 {
+  margin-bottom: .5rem!important;
+  color: #855ab3 !important;
+}
+
+.pariezz {
+  color: #ed00fa7c;
+}
+  
+  
+  
+.p-2 {
+  padding: -2.5rem!important;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+  
+  * {
+  font-family: Open Sans;
+  }
+  
+  .footer-distributed{
+  background: #00000000;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 1px 100px
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+  }
+  
+  /* footer gauche */
+  
+  .footer-distributed .footer-left{
+  width: 40%;
+  }
+  
+  /* logos */
+  
+  .footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+  color:  #ff4800;
+  }
+  
+  /* les liens */
+  
+  .footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  }
+  
+  /* millieu footer */
+  
+  .footer-distributed .footer-center{
+  width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+  color:  #5FB3F9;
+  text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+  content: none;
+  }
+  
+  /* Footer a droite */
+  
+  .footer-distributed .footer-right{
+  width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+  margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #ff4800;
+  border-radius: 2px;
+  
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  
+  margin-right: 3px;
+  margin-bottom: 5px;
+  }
+  
+  /* le rendre reactiff */
+  
+  @media (max-width: 880px) {
+  
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+  
+  p{
+  color: white;
+  }
+  
+  .cgu-cgv{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px 10px;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+.Logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #03989E;
+    margin-left: 50px;
+}
+.container{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: hidden;
+    top: 10px;
+    transform: translateY(0);
+    color: white;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button1 {
+    display: block;
+    color: #03989e;
+    border-radius: 10px;
+    background-color: transparent;  
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.button2 {
+    display: block;
+    padding: 5px;
+    color: #03989e;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;  
+    transition-duration: 0.5s;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 7px;
+    margin-right: 7px;    
+}
+.button3 {
+  display: block;
+  padding: 5px;
+  color: #03989e;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;  
+  transition-duration: 0.5s;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 7px;
+  margin-right: 4px;    
+}
+.button1:hover {
+  color: rgb(255, 255, 255);
+  
+}
+.button2:hover {
+  color: rgb(255, 255, 255);
+  
+}
+.button3:hover {
+  color: rgb(255, 255, 255);
+  
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: #03989E;
+  text-decoration: none;
+}
+a:active{
+  color: #03989E;
+  text-decoration: none;
+}
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #03989e;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 44%;
+    margin: 0;
+    padding: 45px 0;
+    list-style: none;
+    background-color: #383838;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #03989e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: rgb(195, 249, 228);
+    color: #03989e;
+  }
+

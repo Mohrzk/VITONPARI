@@ -1,0 +1,51 @@
+body{
+    background: url(./img/stadium.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+#rectangle1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #00000078;
+}
+#rectangle2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;  
+    height:150px;
+    border-radius: 10px; 
+    border:3px solid  rgba(237, 0, 250, 0.486);
+    color:white;
+    background-color: #00000078;
+}
+#rectangle3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: #00000078;
+}
+#titre{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: white;
+}
+#argent{
+    text-align: center;
+    color: white;
+}
+#argent2{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+hr{
+    margin-bottom: 15px;
+}

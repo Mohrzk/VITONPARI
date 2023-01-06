@@ -1,0 +1,234 @@
+body{
+
+    background: url(./img/stadium.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fond{
+    border: 5px white solid; 
+    border-radius: 50px ;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+}
+
+.fond2{
+    border: 5px white;
+    border-radius: 50px;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+}
+
+.affiche{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.affiche button {
+    background-color:#272424;
+    border: 0px;
+    padding: 10px;
+    color: #ffffff;
+    
+    
+}
+.affiche button:hover {
+background-color: #4b4646;
+}
+
+.Les-affiches-de-la-semaine{
+    border: 5px white;
+    border-radius: 8px;
+    width: 350px;
+    background-color: #00000078;
+    text-align: center;
+    margin: auto;
+    
+      
+}
+
+#afs{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #ed00fa7c;    
+    border-radius: 8px;
+    color: white;
+    padding: 12px;
+    margin-top: 0;
+}
+
+.premiere-affiche-de-la-semaine{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin: auto;
+    color: white;
+   margin: 8px;
+ 
+}
+
+.premiere-affiche-de-la-semaine{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.deuxieme-affiche-de-la-semaine{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+
+.deuxieme-affiche-de-la-semaine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.troisieme-affiche-de-la-semaine{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.troisieme-affiche-de-la-semaine{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.quatrieme-affiche-de-la-semaine{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.quatrieme-affiche-de-la-semaine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Vainqueur-de-la-cdm{
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 15px;
+}
+
+.Vainqueur-de-la-cdm div{
+display: flex ;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+}
+
+.Vainqueur-de-la-cdm div p{
+    background-color:#272424;
+    width: 50%;
+    padding: 10px 0;
+    height: 20px;
+    padding: 8px;
+}
+.Vainqueur-de-la-cdm div button{
+    background-color:#272424;
+    width: 40%;
+    height: 40px;
+    padding:10px;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+.Vainqueur-de-la-cdm div button:hover {
+background-color: #4b4646;
+}
+
+.ldc{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+
+.cote-france{
+    border-radius: 50px;
+    border: #8890c2;
+    background-color: #545769;
+}
+
+.Championnat01{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 2px solid #ed00fa7c;
+    border-radius: 8px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.472);
+    text-align: center;
+    color: white;
+}
+
+.Championnat01 section button{
+    background-color: #272424;
+    width: 40%;
+    height: 40px;
+    padding: 10px 0;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+.Championnat01 button:hover{
+    background-color: #4b4646;
+}
+
+.footfoot{
+    margin-top: 100px;
+}
+.headhead{
+    margin-bottom: 50px;
+}
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cdm{
+    margin-left: 20px;
+  }
+.Championnat01{
+    margin-right: 20px;
+  }
